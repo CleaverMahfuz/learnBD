@@ -1,0 +1,46 @@
+const rootRoute = '/elearnbd/';
+const api = 'http://127.0.0.1:3000/';
+
+exports.backend = api;
+exports.apiRoot = `${api}api/v1`;
+exports.apiPdfBooks = `${api}api/v1/books`;
+exports.apiJobCircular = `${api}api/v1/jobs`;
+exports.apiQuestionBank = `${api}api/v1/questions`;
+exports.apiTutorials = `${api}api/v1/tutorials`;
+exports.apiUsers = `${api}api/v1/users`;
+
+exports.root = `${rootRoute}`;
+exports.about = `${rootRoute}about`;
+exports.becomeInstructor = `${rootRoute}becomeinstructor`;
+exports.blogs = `${rootRoute}blogs`;
+exports.courses = `${rootRoute}courses`;
+exports.handNotes = `${rootRoute}handnotes`;
+exports.home = `${rootRoute}home`;
+exports.jobCircular = `${rootRoute}jobcircular`;
+exports.join = `${rootRoute}join`;
+exports.logIn = `${rootRoute}join/login`;
+exports.signUp = `${rootRoute}join/signup`;
+exports.moderator = `${rootRoute}moderator`;
+exports.moderatorAddJobCircular = `${rootRoute}moderator/addjobcircular`;
+exports.moderatorAddPDFBooks = `${rootRoute}moderator/addpdfbooks`;
+exports.moderatorAddQuestionBank = `${rootRoute}moderator/addquestionbank`;
+exports.moderatorAddShortQuiz = `${rootRoute}moderator/addshortquiz`;
+exports.moderatorReportReview = `${rootRoute}moderator/reportreview`;
+exports.pdfBooks = `${rootRoute}pdfbooks`;
+exports.privacyPolicy = `${rootRoute}privacypolicy`;
+exports.profile = `${rootRoute}profile`;
+exports.questionBank = `${rootRoute}questionbank`;
+exports.reportBug = `${rootRoute}reportbug`;
+exports.resetPassword = `${rootRoute}resetpassword`;
+exports.search = `${rootRoute}search`;
+exports.shortQuiz = `${rootRoute}shortquiz`;
+exports.tutorials = `${rootRoute}tutorials`;
+
+exports.phoneNumber = '+8801983180596';
+exports.email = 'shayakanis@gmail.com';
+exports.emailSubject = 'ELearnBD%20Support%20and%20Feedback';
+exports.facebookPage = 'https://www.facebook.com/azshayak';
+exports.instagramPage = 'https://www.instagram.com/az_shayak/';
+exports.twitterPage = 'https://twitter.com/AzShayak';
+exports.youTubeChannel = 'https://www.youtube.com/channel/UCEkiK8GcIabv-roUntEkbGg';
+exports.telegramChannel = 'https://t.me/AzShayak';
